@@ -36,3 +36,25 @@ so...
 **Note**: `--with-http_ssl_module` is necessary in addition to `--with-openssl`.
 
 one must first generate `configure` for `pcre` with `autogen.sh`.
+
+## more
+
+maybe
+
+```
+./auto/configure --prefix=/opt/nginx \
+    --with-http_ssl_module --with-openssl=../openssl-openssl-3.3.0 \
+    --with-pcre=../pcre2-pcre2-10.43 \
+    --with-http_stub_status_module \
+    --with-http_realip_module \
+    --with-http_auth_request_module \
+    --with-threads \
+    --with-stream \
+    --with-stream_ssl_module \
+    --with-stream_realip_module \
+    --with-stream_ssl_preread_module \
+    --with-http_v2_module \
+    --with-http_slice_module \
+    --with-http_gzip_static_module \
+    --with-http_sub_module
+```
