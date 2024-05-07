@@ -1,0 +1,30 @@
+{
+	"methods": {
+		"stop": {
+			"timeStamp": "2024-05-07T10:12:33Z"
+		},
+		"nginx_dir": {
+			"timeStamp": "2024-05-07T10:13:01Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"cli_escape": {
+			"timeStamp": "2024-05-07T09:46:14Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"about": {
+			"timeStamp": "2024-05-07T09:26:29Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"start": {
+			"timeStamp": "2024-05-07T10:12:33Z"
+		}
+	}
+}
