@@ -20,7 +20,8 @@ see https://gist.github.com/rjeczalik/7057434
 
 **Note**: the above information is for Linux circa 2015. the following options seem invalid:
 
-* `--with-ld-opt="-static"
+* `--with-cc-opt="-static -static-libgcc"`
+* `--with-ld-opt="-static"`
 * `--with-http_spdy_module`
 * `--with-rtsig_module`
 
