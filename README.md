@@ -11,25 +11,28 @@ from source.
 
 see https://gist.github.com/rjeczalik/7057434
 
----
 
+the following options seem invalid:
 
-$ ./configure
-  --with-pcre=
-  --with-http_ssl_module
-  --with-openssl=
+* `--with-ld-opt="-static"
+* `--with-http_spdy_module`
+* `--with-rtsig_module`
+
+passing the following option:
+
+* `--with-cc-opt`
+
+causes error "can not detect int size"
+
+so...
 
 ```
-export LDFLAGS="-L.../lib -lcrypto -lssl -llibpcre2-8 -llibpcre2-16 -llibpcre2-32 -llibpcre2-posix"
-export LIBS=" -lcrypto -lssl -llibpcre2-8 -llibpcre2-16 -llibpcre2-32 -llibpcre2-posix"
-export CFLAGS="-I.../include -I.../include/openssl"
+./auto/configure --prefix=/opt/nginx \
+    --with-openssl=../openssl-openssl-3.3.0 \
+    --with-pcre=../pcre2-pcre2-10.43
 ```
 
-## execute
+must generate `configure` for `pcre` with `autogen.sh`
 
-```
-nginx
-nginx -s stop
-```
 
 https://qiita.com/katzueno/items/44e02db2f1bfa0de5860
