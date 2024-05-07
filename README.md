@@ -11,8 +11,7 @@ from source.
 
 see https://gist.github.com/rjeczalik/7057434
 
-
-the following options seem invalid:
+**Note**: the above information is for Linux circa 2015. the following options seem invalid:
 
 * `--with-ld-opt="-static"
 * `--with-http_spdy_module`
@@ -31,6 +30,8 @@ so...
     --with-http_ssl_module --with-openssl=../openssl-openssl-3.3.0 \
     --with-pcre=../pcre2-pcre2-10.43
 ```
+
+**Note**: `--with-http_ssl_module` is necessary in addition to `--with-openssl`.
 
 must generate `configure` for `pcre` with `autogen.sh`
 
