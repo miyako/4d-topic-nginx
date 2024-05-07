@@ -45,7 +45,7 @@ one must first generate `configure` for `pcre` with `autogen.sh`.
 
 ## more
 
-maybe
+addtional options used in release
 
 ```
 ./auto/configure --prefix=/opt/nginx \
