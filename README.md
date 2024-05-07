@@ -28,7 +28,7 @@ so...
 
 ```
 ./auto/configure --prefix=/opt/nginx \
-    --with-openssl=../openssl-openssl-3.3.0 \
+    --with-http_ssl_module --with-openssl=../openssl-openssl-3.3.0 \
     --with-pcre=../pcre2-pcre2-10.43
 ```
 
