@@ -1,15 +1,14 @@
 # 4d-topic-nginx
 
-## setup
+## gist
 
-```
-brew fetch --bottle-tag=arm64_monterey nginx 
-brew fetch --bottle-tag=x86_64_monterey nginx
-brew fetch --bottle-tag=arm64_monterey pcre2
-brew fetch --bottle-tag=x86_64_monterey pcre2
-brew fetch --bottle-tag=arm64_monterey openssl@3
-brew fetch --bottle-tag=x86_64_monterey openssl@3
-```
+instead of statically linking to `.a` files, one should compile 
+
+* openssl
+* pcre2
+
+from source.
+
 
 $ ./configure
   --with-pcre=
