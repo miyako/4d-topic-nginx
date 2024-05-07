@@ -35,7 +35,4 @@ so...
 
 **Note**: `--with-http_ssl_module` is necessary in addition to `--with-openssl`.
 
-must generate `configure` for `pcre` with `autogen.sh`
-
-
-https://qiita.com/katzueno/items/44e02db2f1bfa0de5860
+one must first generate `configure` for `pcre` with `autogen.sh`.
