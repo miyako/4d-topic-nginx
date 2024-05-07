@@ -9,6 +9,10 @@ instead of statically linking to `.a` files, one should compile
 
 from source.
 
+see https://gist.github.com/rjeczalik/7057434
+
+---
+
 
 $ ./configure
   --with-pcre=
