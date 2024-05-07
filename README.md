@@ -2,6 +2,8 @@
 
 ## gist
 
+build a static, portable nginx executable with minimal features (i.e. HTTPS proxy).
+
 instead of statically linking to `.a` files, one should compile 
 
 * openssl
