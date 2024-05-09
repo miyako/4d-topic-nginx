@@ -35,8 +35,8 @@ so...
 
 ```
 ./auto/configure --prefix=/opt/nginx \
-    --with-http_ssl_module --with-openssl=../openssl-openssl-3.3.0 \
-    --with-pcre=../pcre2-pcre2-10.43
+    --with-http_ssl_module --with-openssl=../openssl-3.3.0 \
+    --with-pcre=../pcre2-10.43
 ```
 
 **Note**: `--with-http_ssl_module` is necessary in addition to `--with-openssl`.
@@ -49,8 +49,8 @@ addtional options used in release
 
 ```
 ./auto/configure --prefix=/opt/nginx \
-    --with-http_ssl_module --with-openssl=../openssl-openssl-3.3.0 \
-    --with-pcre=../pcre2-pcre2-10.43 \
+    --with-http_ssl_module --with-openssl=../openssl-3.3.0 \
+    --with-pcre=../pcre2-10.43 \
     --with-http_stub_status_module \
     --with-http_realip_module \
     --with-http_auth_request_module \
