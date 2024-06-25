@@ -64,3 +64,11 @@ addtional options used in release
     --with-http_gzip_static_module \
     --with-http_sub_module
 ```
+
+## Tips 
+
+where Nginx is used as an HTTPS proxy to an HTTP 4D Web Server, you might want to disable CORS to avoid 403 errors. see [documentation]([url](https://developer.4d.com/docs/API/WebServerClass/#corsenabled)).
+
+## References
+
+https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
